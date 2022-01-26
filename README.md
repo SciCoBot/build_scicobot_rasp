@@ -2,21 +2,12 @@
 ## Construindo as dependências
 Para instalar, primeiro forneça sua instalação do ROS 2, como:
 ```
-source install/local_setup.bash
+source /opt/ros/foxy/setup.bash
 ```
-Em seguida, crie um workspace ROS 2 
+Baixe 
+
 ```
-cd ~/
-```
-```
-mkdir -p scicobot_rasp/src
-```
-Baixe os projetos dentro de src
-```
-cd scicobot_rasp/src
-```
-```
-git clone https://github.com/SciCoBot/build_scicobot_rasp.git .
+git clone https://github.com/SciCoBot/scicobot_rasp.git .
 ```
 Em /scicobot_rasp, verifique as dependências com:
 ```
