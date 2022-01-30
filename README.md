@@ -1,3 +1,11 @@
+# Adicionar
+sudo apt-get update
+sudo apt-get install -y \
+build-essential \
+
+
+
+
 # Como usar?
 ## Construindo as dependências
 Para instalar, primeiro forneça sua instalação do ROS 2, como:
